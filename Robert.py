@@ -65,7 +65,7 @@ logo = """ -----------------------------•◈•
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -75,13 +75,13 @@ oks = []
 id = []
 listgrup = []
 vulnot = "\033[31mNot Vuln"
-vuln = "\033[32mVuln"
+vuln = "\033[n"
 
 os.system("clear")
 print "\033[1;96m ============================================================="
-print  """\033[1;91m=======================================
+print  ============================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mJack Robert
-\033[1;96mInstagram \033[1;93m: \033[1;Blacksavage
+\033[1;96mInstagram \0333[1;Blacksavage
 \033[1;96mFacebook  \033[1;93m: \033[1;92m Haters.cude
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/BSTR0bert/Blacksavage
 \033[1;91m======================================="""
